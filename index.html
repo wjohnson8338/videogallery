@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cats Video Gallery</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="" style="width:20%"> 
+        <h2>Krazy Kats Video Page</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#vid1">Funny Cat Video</a></li>
+            <li><a href="#vid2">Random Cat Video</a></li>
+            <li><a href="#vid3">Interesting Cat Video</a></li>
+            <li><a href="#vid4">Cool Cat Video</a></li>
+            <li><a href="#vid5">Amazing Cat Video</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article id="vid1">
+            <h4>Funny Cat Video</h4>
+            <div class="videowrapper">
+                <iframe src="https://player.vimeo.com/video/199714183?h=3bdd9f5a92" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <div class="caption">
+            </div>
+        </article>
+        <article id="vid2">
+            <h4>Random Cat Video</h4>
+            <div class="videowrapper"><iframe src="https://player.vimeo.com/video/10991378?h=9e572f7f4a" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <div class="caption"></div>
+        </article>
+        <article id="vid3">
+            <h4>Interesting Cat Video</h4>
+            <div class="videowrapper"><iframe src="https://player.vimeo.com/video/10985679?h=7008dd1c79" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <div class="caption"></div>
+        </article>
+        <article id="vid4">
+            <h4>Cool Cat Video</h4>
+            <div class="videowrapper"><iframe src="https://player.vimeo.com/video/7739811?h=a157c03cda" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <div class="caption"></div>
+        </article>
+        <article id="vid5">
+            <h4>Amazing Cat Video</h4>
+            <div class="videowrapper"><iframe src="https://player.vimeo.com/video/68918860?h=a23d8b716a" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <div class="caption"></div>
+        </article>
+
+        <div><button onclick="topFunction()" id="cornerBtn" title="Go to top"><i class="fa-solid fa-angle-up"></i></button></div>
+
+    </main>
+    <footer>
+        <p>&copy; <span id="copyright"></span> William Johnson</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
